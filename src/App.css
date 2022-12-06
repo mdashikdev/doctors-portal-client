@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700;800;900&display=swap');
+
+* {
+  transition: .3s;
+}
+
+body{
+  font-family: Poppins,sans-serif;
+}
+
+.alertBar{
+  overflow: hidden;
+  transition: 0.5s cubic-bezier(0.88, -0.38, 0.41, 1.41);
+  -webkit-transition: 0.5s cubic-bezier(0.88, -0.38, 0.41, 1.41);
+  -moz-transition: 0.5s cubic-bezier(0.88, -0.38, 0.41, 1.41);
+  -ms-transition: 0.5s cubic-bezier(0.88, -0.38, 0.41, 1.41);
+  -o-transition: 0.5s cubic-bezier(0.88, -0.38, 0.41, 1.41);
+}
+
+.alertBar::before{
+  content: '';
+  position: absolute;
+  height: 5px;
+  background-color: rgb(254, 184, 103);
+  bottom: 0px;
+  left: 0px;
+  animation: bar 4s ;
+  -webkit-animation: bar 4s ;
+  transition: 4s forward;
+  -webkit-transition: 4s forward;
+  -moz-transition: 4s forward;
+  -ms-transition: 4s forward;
+  -o-transition: 4s forward;
+}
+
+@keyframes bar {
+  from{
+    width: 100%;
+  }
+  to{
+    width: 0%;
+  }
+}
+.react-datalist-input__textbox{
+  outline:none
+}

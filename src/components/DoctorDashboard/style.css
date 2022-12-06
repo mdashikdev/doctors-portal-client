@@ -1,0 +1,11 @@
+select{
+    border:none
+}
+
+.react-datetime-picker__inputGroup__input,.react-datetime-picker__wrapper{
+    border:none
+}
+
+input:focus{
+    outline: none !important;
+}

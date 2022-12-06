@@ -1,0 +1,68 @@
+[{
+    "id": 1,
+    "category": "Teeth Orthodontics",
+    "services": [
+        {
+            "id": 1,
+            "services": "Cosmetic Denistry",
+            "from":"Wed Nov 23 2022 19:00:04",
+            "to":"Wed Nov 23 2022 20:00:04"
+          }, {
+            "id": 2,
+            "services": "Teeth Cleaning",
+            "from":"Wed Nov 23 2022 15:00:04",
+            "to":"Wed Nov 23 2022 16:00:04"
+          },{
+            "id": 3,
+            "services": "Cavity Protection",
+            "from":"Wed Nov 23 2022 01:00:04",
+            "to":"Wed Nov 23 2022 02:00:04"
+          }, {
+            "id": 4,
+            "services": "Pediatric Dental",
+            "from":"Wed Nov 23 2022 21:00:04",
+            "to":"Wed Nov 23 2022 22:00:04"
+          }, {
+            "id": 5,
+            "services": "Oral Surgery",
+            "from":"Wed Nov 23 2022 19:00:04",
+            "to":"Wed Nov 23 2022 20:00:04"
+          }
+    ]
+  }, {
+    "id": 2,
+    "category": "Cosmetic Denistry",
+    "services": [
+      {
+          "id": 1,
+          "services": "Cosmetic Procedures",
+          "from":"Wed Nov 23 2022 19:00:04",
+          "to":"Wed Nov 23 2022 20:00:04"
+        }, {
+          "id": 2,
+          "services": "Veneers",
+          "from":"Wed Nov 23 2022 15:00:04",
+          "to":"Wed Nov 23 2022 16:00:04"
+        }
+  ]
+  }, {
+    "id": 3,
+    "category": "Teeth Cleaning",
+    "services": null
+  },{
+    "id": 4,
+    "category": "Cavity Protection",
+    "services": null
+  }, {
+    "id": 5,
+    "category": "Pediatric Dental",
+    "services": null
+  }, {
+    "id": 6,
+    "category": "Oral Surgery",
+    "services": null
+  }
+
+  
+
+]
